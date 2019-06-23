@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageList.test.js clicks event 1`] = `
+<div>
+  <img
+    alt=""
+    src="https://www.cybelesoft.com/wp-content/uploads/2017/08/reactlogo2-150x150.png"
+  />
+  <button
+    onClick={[Function]}
+  >
+    Click Me
+  </button>
+  Number of clicks
+   =&gt;  
+  1
+  <div
+    id="container"
+  >
+    you contained app goes here
+  </div>
+</div>
+`;
+
+exports[`MessageList.test.js renders correctly 1`] = `
+<div>
+  <img
+    alt=""
+    src="https://www.cybelesoft.com/wp-content/uploads/2017/08/reactlogo2-150x150.png"
+  />
+  <button
+    onClick={[Function]}
+  >
+    Click Me
+  </button>
+  Number of clicks
+   =&gt;  
+  0
+  <div
+    id="container"
+  >
+    you contained app goes here
+  </div>
+</div>
+`;
