@@ -1,6 +1,7 @@
 import babel from 'rollup-plugin-babel'
 import resolve from 'rollup-plugin-node-resolve'
 import { terser } from 'rollup-plugin-terser'
+import { string } from 'rollup-plugin-string'
 
 const production = !process.env.ROLLUP_WATCH
 
@@ -30,6 +31,9 @@ export default {
     resolve(),
     babel({
       exclude: 'node_modules/**' // only transpile our source code
+    }),
+    string({
+      include: '**/*.css'
     }),
     production && terser()
   ]

@@ -13,6 +13,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-menu-ssa": "file:../..",
+    "react-router": "^5.0.1",
     "suckless-serverless-react-demo": "file:../..",
     "vue": "^2.6.10"
   },
