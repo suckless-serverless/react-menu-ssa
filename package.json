@@ -1,6 +1,6 @@
 {
   "name": "react-menu-ssa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Menu suckless serverless application",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.ems.js",
