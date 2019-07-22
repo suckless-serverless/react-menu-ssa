@@ -1,5 +1,6 @@
 import React from 'react'
 import Menu from './components/Menu/Menu'
+import properties from '../properties'
 
 class App extends React.Component {
   constructor (props) {
@@ -12,7 +13,7 @@ class App extends React.Component {
   render () {
     return <div>
       <Menu nav={this.props.nav }/>
-      <div id="reactcontainer">
+      <div id={properties.containerId}>
         you contained app goes here
       </div>
     </div>

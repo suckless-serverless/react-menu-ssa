@@ -18,7 +18,7 @@ export default {
       format: 'esm'
     },
     {
-      name: 'modvue',
+      name: 'reactMenuSSA',
       file: 'dist/bundle.umd.js',
       format: 'umd',
       globals: {

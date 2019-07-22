@@ -48,7 +48,11 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "suckless-serverless": "^1.0.0"
+    "suckless-serverless": "file:../suckless-serverless"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "jest": {
     "moduleNameMapper": {
